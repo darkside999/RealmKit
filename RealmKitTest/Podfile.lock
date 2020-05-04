@@ -1,0 +1,29 @@
+PODS:
+  - Realm (4.4.0):
+    - Realm/Headers (= 4.4.0)
+  - Realm/Headers (4.4.0)
+  - RealmKit (0.1):
+    - RealmSwift
+  - RealmSwift (4.4.0):
+    - Realm (= 4.4.0)
+
+DEPENDENCIES:
+  - RealmKit (from `../RealmKitPod`)
+
+SPEC REPOS:
+  trunk:
+    - Realm
+    - RealmSwift
+
+EXTERNAL SOURCES:
+  RealmKit:
+    :path: "../RealmKitPod"
+
+SPEC CHECKSUMS:
+  Realm: e125f464884cda953ebefe70c671b75b03b81b9b
+  RealmKit: 1aea989c517eaf5c7fb2838f688be5c3e1f14a15
+  RealmSwift: 33656a42bd300959a081fc13347376bc478071af
+
+PODFILE CHECKSUM: 6ea019fb5e6e3481de202c7b4cac0b90062c455d
+
+COCOAPODS: 1.9.1
